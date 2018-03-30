@@ -26,7 +26,7 @@ contract CommitmentVoting{
         sets id, name and numberOfVotes for each candidate
         pushes the object to the array of canadidate objects
         sets the owner of the poll and start & end times of the polling*/
-    function Voting(bytes32[] myCandidates) public {
+    function CommitmentVoting(bytes32[] myCandidates) public {
         pollOwner = msg.sender;
         active = true;
         //commitPhaseLength = pollingLength;
